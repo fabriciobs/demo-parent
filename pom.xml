@@ -10,8 +10,8 @@
         <version>3.2.0</version>
         <relativePath/> </parent>
 
-    <groupId>com.suaorganizacao</groupId>
-    <artifactId>organizational-parent-pom</artifactId>
+    <groupId>br.com.fbsilvaltda</groupId>
+    <artifactId>demo-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging> <properties>
         <java.version>17</java.version>
@@ -86,5 +86,11 @@
                 </plugins>
         </pluginManagement>
     </build>
-
+<distributionManagement>
+  <repository>
+    <id>github</id>
+    <name>GitHub Packages</name>
+    <url>https://maven.pkg.github.com/fabriciobs</url>
+  </repository>
+</distributionManagement>
 </project>
